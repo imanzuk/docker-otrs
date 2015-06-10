@@ -45,3 +45,5 @@ RUN mkdir -p /etc/service/mysql
 ADD run.mysql.sh /etc/service/mysql/run
 RUN chown root /etc/service/mysql/run
 RUN chmod +x /etc/service/mysql/run
+
+EXPOSE 80
